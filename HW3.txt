@@ -1,0 +1,58 @@
+'number' + 3 + 3 
+Answer: "number33". (Concatenation) https://prnt.sc/oE4UXMDdKd3x
+
+null + 3
+Answer: 3.( Null-nothing, 3-number) https://prnt.sc/cZvIHP6vehFz
+
+5 && "qwerty"
+answer: qwerty (5 and text)  https://prnt.sc/4Rs3LfsBss68
+
++'40' + +'2' + "hillel"
+Answer: 42hillel (конкатенація трьох текстів) 
+
+'10' - 5 === 6
+ Answer: false (текст-число 5 не строго рівно 6)
+
+true + false
+Answer: 1 (1+0) https://prnt.sc/A3Caz4mrEGJV
+
+'4px' - 3
+Answer: NaN (текст-число= не число) https://prnt.sc/ngYFaA-R-eBI
+
+'4' - 3
+Answer: 1 (працює як віднімання)
+
+'6' + 3 ** 0;
+Answer: 61(6- як текст та конкатенація 3 в ступені 0,тобто 1) https://prnt.sc/y4lB7wF_S8FQ
+
+
+12 / '6'
+Answer: 2 (ділення)
+
+'10' + (5 === 6);
+Answer: 10false (тут конкатенація 10 та строга рівність дає false. Але я думала, що тут false порахує як 0 i буде так: '100', перевірила в VScode) https://prnt.sc/2PjCXW0jpXeQ)
+
+
+null == ''
+Answer: false (не дорівнює)
+
+3 ** (9 / 3);
+Answer:27 (спочатку виконується ділення в дужках. потім приводимо 3 в ступінь 3)
+
+!!'false' == !!'true'
+Answer:true ( я так розумію, що ми можемо будь який текст вказати в лапках . Самі конструкції зправа та зліва однакові за типами)
+
+0 || '0' && 1
+Answer:напевно 1 (число 0 або текст 0 та 1) 
+
+(+null == false) < 1;
+Answer: false (false порівнюємо з 1)
+
+false && true || true
+Answer: true (false та true або true, останнім за логікою виходить  true)
+
+false && (false || true);  
+Answer: false
+
+(+null == false) < 1 ** 5;
+Answer: false (тут порівнюємо false з 1)
